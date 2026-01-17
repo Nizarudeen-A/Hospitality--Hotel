@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "3d18",
+      "name": "Azar",
+      "address": "Spkovil",
+      "phoneNo": "8451346736",
+      "email": "azar@gail.com",
+      "password": "Azzra@43r234"
+    },
+    {
+      "id": "15e6",
+      "name": "NIZARUDEEN",
+      "address": "37, Singavaram Road, Manthaveli Opp, Krishnapuram, Gingee, Villupuram District.",
+      "phoneNo": "8825602117",
+      "email": "nizar2001anb@gmail.com",
+      "password": "1234567890"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "569c",
+      "startDate": "2026-01-16",
+      "endDate": "2026-01-20",
+      "noOfPersons": "5",
+      "noOfRooms": "1",
+      "typeOfRoom": "Non-AC",
+      "user": {
+        "id": "15e6",
+        "name": "NIZARUDEEN",
+        "address": "37, Singavaram Road, Manthaveli Opp, Krishnapuram, Gingee, Villupuram District.",
+        "phoneNo": "8825602117",
+        "email": "nizar2001anb@gmail.com",
+        "password": "1234567890"
+      }
+    }
+  ]
+}

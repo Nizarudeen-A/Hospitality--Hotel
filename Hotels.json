@@ -1,0 +1,51 @@
+{
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Taj Hotel",
+      "location": "Chennai",
+      "price": 4500,
+      "rating": 5,
+      "description": "Luxury hotel with premium services",
+      "reviews": [
+        {
+          "comment": "good hotel",
+          "user": "nizar2001anb@gmail.com",
+          "date": "15/01/2026"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Leela Palace",
+      "location": "Bangalore",
+      "price": 5500,
+      "rating": 5,
+      "description": "Elegant stay with sea view"
+    },
+    {
+      "id": "3",
+      "name": "ITC Grand",
+      "location": "Hyderabad",
+      "price": 4000,
+      "rating": 4,
+      "description": "Comfortable business class hotel"
+    },
+    {
+      "id": "4",
+      "name": "Hyatt Regency",
+      "location": "Mumbai",
+      "price": 4800,
+      "rating": 4,
+      "description": "Modern hotel with city view"
+    },
+    {
+      "id": "5",
+      "name": "Hilton",
+      "location": "Chennai",
+      "price": 4800,
+      "rating": 4,
+      "description": "Seven Star hotel with city view"
+    }
+  ]
+}

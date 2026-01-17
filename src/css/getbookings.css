@@ -1,0 +1,104 @@
+/* Page container */
+.bookings-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+.bookings-container h2 {
+  text-align: center;
+  color: #667eea;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* Messages */
+.success {
+  text-align: center;
+  color: green;
+  margin-bottom: 15px;
+}
+
+.empty {
+  text-align: center;
+  color: #555;
+  font-size: 15px;
+}
+
+/* Cards grid */
+.booking-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Booking card */
+.booking-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Card text */
+.booking-card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+/* Button group */
+.booking-button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+/* Buttons */
+.booking-button-group button {
+  flex: 1;
+  padding: 8px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+/* Reschedule */
+.reschedule-btn {
+  background-color: #667eea;
+}
+
+.reschedule-btn:hover {
+  background-color: #5a67d8;
+}
+
+/* Cancel */
+.cancel-btn {
+  background-color: #e53e3e;
+}
+
+.cancel-btn:hover {
+  background-color: #c53030;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .bookings-container h2 {
+    font-size: 24px;
+  }
+
+  .booking-button-group button {
+    font-size: 12px;
+  }
+}

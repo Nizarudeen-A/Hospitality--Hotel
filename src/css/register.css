@@ -1,0 +1,95 @@
+/* Page background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main container */
+.register-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields */
+.register-container input {
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.register-container input:focus {
+  border-color: #667eea;
+}
+
+/* Error messages */
+.register-container span {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* Success & API messages */
+.register-container p {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Button */
+.register-container button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #667eea;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+  background-color: #5a67d8;
+}
+
+/* Login link */
+.register-container a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .register-container {
+    margin: 30px 15px;
+    padding: 20px;
+  }
+}
